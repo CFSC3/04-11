@@ -1,47 +1,46 @@
 # 04-11
-Aplicativo android mobile voltado a diversão, com intuito de ajudar em decisões e claro fazer o usuário sentir velhas e novas sensações e felicidade ao usar.
+ Aplicativo android mobile voltado a diversão, com intuito de ajudar em decisões e claro fazer o usuário sentir velhas e novas sensações e felicidade ao usar.
 
 # :book: Sobre o projeto
 
 <p align="justify">
-O Bills System é uma aplicação de gerenciamento de contas a receber, que tem como objetivo fazer com que empresas tenham uma noção mais completa do seu fluxo de caixa, para que elas possam tomar a decisão correta e evitar qualquer problema financeiro.</br>
-A aplicação faz o controle de contas a receber para garantir a saúde financeira da empresa, permite prever quais dias são melhores para realizar pagamentos, controla as inadimplências e oferece condições mais vantajosas para os clientes fidelizados.
+04/11 é um aplicativo para demonstrar o quanto o usuário que irá receber é especial para a pessoa que vai dar o aplicativo de presente. Uma das ideias propostas para o funcionamento do sistema é a implementação de um mapa mostrando todos os lugares que o casal já foi e os lugares que o casal poderia ir no futuro ajudando na decisão deles, será divido essa parte em lugares para passeios, visitações, restaurantes entre outros adicionados ao longo do tempo caso precise. Em outro exemplo de ideia que foi repassado seria de criar uma função que ao acionado mandaria uma mensagem com vales românticos ao parceiro(a), seria algo para o casal se divertir. Outra ideia seria criar uma área onde teria um botão que ao acionado apareceria uma tela com um coração carregando e ao clicar vai mostrar uma frase romântica , uma foto do casal e em seguida irá reproduzir aleatoriamente uma música favorita do usuário. Antes do aplicativo funcionar irá ter uma breve tela de cadastro e após a sua finalização vai aparecer uma descrição de como funciona e cada funcionalidade que poderá ser encontrada e feita no mesmo. O aplicativo terá uma coloração em tons de azul, cor favorita do usuário final.
+
 </p>
 
-## :cell: Layout 
+## :iphone: Layout 
 
 <p float="left">
-<img src="https://github.com/RuizHenrique01/Bills_System/blob/master/assets/tela_cadastro.PNG" width="500" height="350" style="float:left"/> 
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/inicial.jpg" width="200" height="350" style="float:left"/> 
   
-<img src="https://github.com/RuizHenrique01/Bills_System/blob/master/assets/tela_login.PNG" width="500" height="350"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/apresentacao.jpg" width="200" height="350" height="350"/>
 
-<img src="https://github.com/RuizHenrique01/Bills_System/blob/master/assets/tela_inicial.PNG" width="500" height="350" style="float:left"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/musicaApresentacao.jpg" width="200" height="350" style="float:left"/>
 
-<img src="https://github.com/RuizHenrique01/Bills_System/blob/master/assets/tela_cadastro_clientes.PNG" width="500" height="350" style="float:left"/> 
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/valeApresentacao.jpg" width="200" height="350" style="float:left"/> 
   
-<img src="https://github.com/RuizHenrique01/Bills_System/blob/master/assets/tela_cadastro_dividas.PNG" width="500" height="350"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/mapaApresentacao.jpg" width="200" height="350"/>
 
-<img src="https://github.com/RuizHenrique01/Bills_System/blob/master/assets/tela_form_cliente.PNG" width="500" height="350" style="float:left"/> 
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/musica.jpg" width="200" height="350" style="float:left"/> 
   
-<img src="https://github.com/RuizHenrique01/Bills_System/blob/master/assets/tela_form_cobranca.PNG" width="500" height="350"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/music.jpg" width="200" height="350"/>
 
-<img src="https://github.com/RuizHenrique01/Bills_System/blob/master/assets/tela_historico.PNG" width="500" height="350"/>
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/tickets.jpg" width="200" height="350"/>
+
+<img src="https://github.com/CFSC3/04-11/blob/main/imagens/mapa.jpg" width="200" height="350"/>
 </p>
+
+# :book: Linguagem
+
+- Java
 
 # 🛠 Tecnologias Utilizadas
 
-- Java
+- Android Studio
 - FireBase
 
-# :rocket: Instalação
-
-Pré requisitos: É necessário que você tenha um editor como o Eclipse ou NetBeans.
-
 ## Clone este repositório
-https://github.com/AACJ/Bills_System.git
-
-## Execução
-Abra a pasta no seu editor e execute o programa Tela.java. 
+https://github.com/CFSC3/04-11.git
 
 # 👨‍💻 Autor e Desenvolvedor
 
