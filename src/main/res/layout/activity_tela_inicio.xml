@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="telas.TelaInicio">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="24dp"
+        app:itemBackground="@drawable/gradiente_tela_principal"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@color/white"
+        app:itemTextColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/tela_pricipal" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarPrincipal"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="#3399FF"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/passeDeFrames"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarPrincipal">
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/filtroGeral"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_maps"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarPrincipal"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarPrincipal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,DuplicateClickableBoundsCheck" />
+
+    <Button
+        android:id="@+id/filtroPasseio"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_pass"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarPrincipal"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarPrincipal"
+        app:layout_constraintTop_toTopOf="@+id/toolbarPrincipal"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/filtroRestaurante"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/ic_res"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarPrincipal"
+        app:layout_constraintEnd_toEndOf="@+id/toolbarPrincipal"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewMusica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Sons e Sentimentos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarPrincipal"
+        app:layout_constraintStart_toStartOf="@+id/toolbarPrincipal"
+        app:layout_constraintTop_toTopOf="@+id/toolbarPrincipal" />
+
+    <TextView
+        android:id="@+id/textViewEmergencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Tickets"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarPrincipal"
+        app:layout_constraintStart_toStartOf="@+id/toolbarPrincipal"
+        app:layout_constraintTop_toTopOf="@+id/toolbarPrincipal" />
+
+    <TextView
+        android:id="@+id/textViewMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Lembranças e Momentos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbarPrincipal"
+        app:layout_constraintStart_toStartOf="@+id/toolbarPrincipal"
+        app:layout_constraintTop_toTopOf="@+id/toolbarPrincipal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
